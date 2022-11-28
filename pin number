@@ -1,0 +1,9 @@
+#program to check the give pin number is valid or not
+pin_number = input('enter pin number:')
+length = len(pin_number)
+if len(pin_number)>=8:
+    print('continue the transactions')
+else:
+    print('incorrect pin number, please try again')
+
+
